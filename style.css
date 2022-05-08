@@ -1,0 +1,58 @@
+* { box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto Slab' , sans-serif;
+    
+}
+
+.describtion-card{
+    display: grid;
+    grid-template-rows: repeat(2,1fr ) ;
+    align-items: center;
+    justify-content: center;
+    height:93vh;
+    /* overflow:hidden; */
+    /* max-width: ; */
+}
+
+.main-con{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    padding: 100px 400px 66px 400px;
+} 
+
+#user-input{
+    padding: 20px;
+    text-size-adjust: 20px;
+    font-size:larger;
+    border: black solid 4px;
+}
+
+.items{
+    box-shadow: 5px 5px 14px 5px rgba(0,0,0,0.31);
+    padding: 20px;
+}
+
+h3{
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.item2{
+    display: grid;
+    grid-template-columns: repeat(minmax(150px, 1fr));
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    text-transform: uppercase;
+    padding: 100px 400px 66px 400px;
+
+}
+
+p{
+    font-size: x-large;
+}
