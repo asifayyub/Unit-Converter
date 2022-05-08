@@ -9,7 +9,7 @@ let mass = document.getElementById("Mass-l");     //
 
 let userInput = document.getElementById("user-input").value; // doc.get el - only gets the forms not the value so .value is use to get value entered by user
   
-let meter = (userInput / 3.2808).toFixed(3);
+let meter = (userInput / 3.2808).toFixed(3);//
 let feet = (userInput * 3.2808).toFixed(3);
 let liter = (userInput * 3.785412).toFixed(3);
 let gallon = (userInput * 0.264172).toFixed(3);
